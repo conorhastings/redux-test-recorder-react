@@ -1,0 +1,39 @@
+{
+  "name": "redux-test-recorder-react",
+  "version": "1.0.0",
+  "description": "component providing a gui for redux-test-recorder in react applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "watch": "babel src --watch --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conorhastings/redux-test-recorder-react.git"
+  },
+  "keywords": [
+    "react",
+    "redux-test-recorder",
+    "testing"
+  ],
+  "author": "Conor Hastings",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conorhastings/redux-test-recorder-react/issues"
+  },
+  "homepage": "https://github.com/conorhastings/redux-test-recorder-react#readme",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.5.0"
+  },
+  "dependencies": {
+    "filesaver.js": "^0.2.0",
+    "react-close-on-escape": "^1.0.0",
+    "react-syntax-highlighter": "^2.0.4"
+  },
+  "peerDependencies": {
+    "react": ">= 0.14.0"
+  }
+}
