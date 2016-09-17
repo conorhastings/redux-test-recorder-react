@@ -1,6 +1,6 @@
 {
   "name": "redux-test-recorder-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "component providing a gui for redux-test-recorder in react applications",
   "main": "dist/index.js",
   "scripts": {
