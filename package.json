@@ -32,7 +32,7 @@
   "dependencies": {
     "filesaver.js": "^0.2.0",
     "react-close-on-escape": "^1.0.0",
-    "react-syntax-highlighter": "^2.0.4"
+    "react-syntax-highlighter": "^2.6.0"
   },
   "peerDependencies": {
     "react": ">= 0.14.0"

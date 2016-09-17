@@ -1,12 +1,17 @@
 import React from 'react';
-import Tabs from './tabs';
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { docco } from 'react-syntax-highlighter/dist/styles';
+import SyntaxHighlighter from 'react-syntax-highlighter/dist/light';
+import docco from 'react-syntax-highlighter/dist/styles/docco';
+import js from 'highlight.js/lib/languages/javascript';
+import lowlight from 'lowlight/lib/core';
 import CloseOnEscape from 'react-close-on-escape';
+import Tabs from './tabs';
+
 let saveAs;
 if (typeof window !== 'undefined') {
-  saveAs = require('filesaver.js').saveAs
+  saveAs = require('filesaver.js').saveAs;
 }
+
+lowlight.registerLanguage('javascript', js);
 
 const style = {
   position: 'absolute',
